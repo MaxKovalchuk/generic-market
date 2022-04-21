@@ -1,5 +1,6 @@
 package tg.market.service
 
+import dev.inmo.tgbotapi.bot.Ktor.telegramBot
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service
 
