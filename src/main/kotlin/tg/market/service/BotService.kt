@@ -1,6 +1,6 @@
 package tg.market.service
 
-import dev.inmo.tgbotapi.extensions.api.telegramBot
+import dev.inmo.tgbotapi.bot.Ktor.telegramBot
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service
 
@@ -11,7 +11,7 @@ class BotService(
 ) {
 
     fun startPolling(){
-        val bot = telegramBot(accessToken) {}
+        val bot = telegramBot(accessToken)
     }
 
 }
