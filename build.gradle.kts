@@ -1,4 +1,3 @@
-import org.jetbrains.kotlin.gradle.plugin.statistics.ReportStatisticsToElasticSearch.url
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -24,7 +23,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.liquibase:liquibase-core")
-    implementation("dev.inmo:tgbotapi:0.38.12")
+    implementation("org.telegram:telegrambots:6.0.1")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 

@@ -4,4 +4,6 @@ spring:
 
 tg:
   bot:
-    token: -----
+    token: 5171179082:AAHyCVGyBd7fqrXYQa13wG9-adykuAXbpik
+    name: Generic Market 🏪
+    menu-url: https://core.telegram.org/bots/webapps
