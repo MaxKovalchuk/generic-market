@@ -1,6 +1,10 @@
 spring:
   application:
     name: generic market
+  datasource:
+    username: postgres
+    password: pass
+    url: jdbc:postgresql://localhost:5432/postgres
 
 tg:
   bot:
