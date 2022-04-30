@@ -1,7 +1,13 @@
 spring:
   application:
     name: generic market
+  datasource:
+    username: postgres
+    password: pass
+    url: jdbc:postgresql://localhost:5432/postgres
 
 tg:
   bot:
-    token: -----
+    token: 5171179082:AAHyCVGyBd7fqrXYQa13wG9-adykuAXbpik
+    name: Generic Market 🏪
+    menu-url: https://core.telegram.org/bots/webapps
